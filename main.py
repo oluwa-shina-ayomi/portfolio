@@ -9,3 +9,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall(request.encode())  
     response = s.recv(4096)
     print(response.decode())
+#......
